@@ -10,24 +10,35 @@
 </head>
 
 <body>
+    
     <div class="header">
-        <p class="title">Survey Form</p>
-        <p class="appreciate">Thank you for taking the time to help us improve the platform</p>
+        <p class="title">Team Information</p>
+        <p class="appreciate">Thank you for taking the time to help us improve the playground</p>
     </div>
     <div class="container">
         <div class="row">
-            <label for="fname">Name</label><br>
+            <label for="fname">Team Name</label><br>
             <input type="name" id="fname" placeholder="Enter your name"><br>
         </div>
         <div class="row">
-            <label for="email">Email</label><br>
+            <label for="email">DIU Email</label><br>
             <input type="email" id="email" placeholder="example@mail.com"><br>
         </div>
-        <div class="row">
+        <!-- <div class="row">
             <label for="age">Age <span>(Optional)</span></label><br>
             <input type="number" id="age" placeholder="12+"><br>
-        </div>
+        </div> -->
         <div class="row">
+            <label for="select">What do you want to play</label><br>
+            <select name="" id="">
+                <option value="a" disabled selected hidden>Select an option</option>
+                <option value="a">Crieket</option>
+                <option value="a">Football</option>
+                <option value="a">Basketball</option>
+                <!-- <option value="d">Open source</option><!--  --> -->
+            </select>
+        </div>
+      <!--   <div class="row">
             <label for="select">Which option best describes your current role?</label><br>
             <select name="" id="">
                 <option value="a" disabled selected hidden>Select current role</option>
@@ -37,8 +48,12 @@
                 <option value="d">Prefer not to say</option>
                 <option value="a">Other</option>
             </select>
-        </div>
+        </div> -->
         <div class="row">
+            <label for="fname">Enter the name of the opposing team</label><br>
+            <input type="name" id="fname" placeholder="Enter name"><br>
+        </div>
+        <!-- <div class="row">
             <label for="radiobtn" class="lineheight">Would you recommend our website to a friend?</label><br>
             <input type="radio" id="html" name="fav_language" value="HTML">
             <label for="html" class="lineheight">Definitely</label><br>
@@ -56,23 +71,23 @@
                 <option value="a">Community</option>
                 <option value="d">Open source</option>
             </select>
-        </div>
+        </div> -->
         <div class="row">
-            <label for="check">What would you like to see improved? <span class="span">(Check all that apply)</span></label><br>
+            <label for="check">Select your department <span class="span"></span></label><br>
             <input type="checkbox" id="yes" name="yes" value="yes">
-            <label for="yes" class="lineheight">Font-end project</label><br>
+            <label for="yes" class="lineheight">Dept-1</label><br>
             <input type="checkbox" id="maybe" name="maybe" value="maybe">
-            <label for="maybe" class="lineheight">Back-end project</label><br>
+            <label for="maybe" class="lineheight">Dept-2</label><br>
             <input type="checkbox" id="notsure" name="notsure" value="notsure">
-            <label for="notsure" class="lineheight">Data visualization</label><br>
+            <label for="notsure" class="lineheight">Dept-3</label><br>
             <input type="checkbox" id="notsure" name="a" value="notsure">
-            <label for="a" class="lineheight">Challenges</label><br>
+            <label for="a" class="lineheight">Dept-4</label><br>
             <input type="checkbox" id="notsure" name="b" value="notsure">
-            <label for="b" class="lineheight">Open source community</label><br>
+            <label for="b" class="lineheight">Dept-5</label><br>
             <input type="checkbox" id="notsure" name="c" value="notsure">
-            <label for="c" class="lineheight">Video</label><br>
+            <label for="c" class="lineheight">Dept-6</label><br>
             <input type="checkbox" id="notsure" name="d" value="notsure">
-            <label for="d" class="lineheight">Additional Courses</label>
+            <label for="d" class="lineheight">Dept-7</label>
         </div>
         <div class="row">
             <label for="tarea">Any comments or suggestions?</label><br>
